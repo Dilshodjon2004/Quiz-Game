@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Quiz app</title>
+</head>
+<body class="flex">
+
+  <div class="wrapper">
+    <div class="quiz-container">
+      <div class="quiz-head">
+        <h1 class="quiz-title">Quiz game</h1>
+        <div class="quiz-score flex">
+          <span id="correct-score" >0</span>/<span class="total-question">10</span>
+        </div>
+      </div>
+
+      <div class="quiz-body">
+        <h2 id="question" class="quiz-question">What is the form of HTTP ? <br> <span class="category">Geography</span></h2>
+        <ul class="quiz-options">
+          <li>Hyper text transfer package</li>
+          <li>Hyper text transfer package</li>
+          <li>Hyper text transfer package</li>
+          <li>Hyper text transfer package</li>
+        </ul>
+        <div id="result">
+          <!-- result here -->
+        </div>
+      </div>
+      <div class="quiz-foot">
+        <button id="check-answer" type="button">Check Answer</button>
+        <button id="play-again" type="button">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
